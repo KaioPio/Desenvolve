@@ -1,0 +1,15 @@
+/* Color Theme Swatches in Hex */
+
+/*
+.Meu-Site-Trabalho-1-hex { color: #640CFA; }
+.Meu-Site-Trabalho-2-hex { color: #A189CC; }
+.Meu-Site-Trabalho-3-hex { color: #604394; }
+.Meu-Site-Trabalho-4-hex { color: #4B3F61; }
+.Meu-Site-Trabalho-5-hex { color: #2E2B33; }
+*/
+
+
+html { 
+    background-color: #2E2B33;
+    color:#A189CC
+}
