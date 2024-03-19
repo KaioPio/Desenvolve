@@ -1,0 +1,30 @@
+/* Color Theme Swatches in Hex */
+
+/*
+.Meu-Site-Trabalho-1-hex { color: #640CFA; }
+.Meu-Site-Trabalho-2-hex { color: #A189CC; }
+.Meu-Site-Trabalho-3-hex { color: #604394; }
+.Meu-Site-Trabalho-4-hex { color: #4B3F61; }
+.Meu-Site-Trabalho-5-hex { color: #2E2B33; }
+*/
+
+
+html { 
+    background-color: #2E2B33;
+    color:#A189CC
+}
+html {
+    font-size: 24px;
+    font-family: "Sarala", sans-serif;
+    font-style: normal;
+    text-indent: 1em;
+}
+
+H1, H2, H3 {text-align: center;}
+H1{ font-size: 1.8rem;}
+H2{ font-size: 1.4rem;}
+H3{ font-size: 1.2rem;}
+
+.summary{ text-align: right;}
+.Main {line-height: 1.5;}
+.abbr {font-family: small-caps;}
