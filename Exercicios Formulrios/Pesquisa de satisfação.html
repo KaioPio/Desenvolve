@@ -1,0 +1,80 @@
+<!DOCTYPE HTML> 
+<html>
+<head>
+    <title>Pesquisa de Satisfação</title>
+</head>
+<header>
+    <h1>Pesquisa de Satisfação ao Cliente</h1>
+</header>
+<body>
+    Primeira sessão da pesquisa dados pessoais 
+    <section>
+        <form method="post" action="processar-pesquisa.html">
+    <h3>Dados Pessoais</h3>
+    <P>Estes dados servem para além da identificação, uma melhor comunicação com você:</P>
+<P>
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome" placeholder="Nome completo"
+</P>
+<P>
+        <label for="email">Email:</label>
+        <input type="text" id="email" placeholder="Insira seu Email"
+ </p>
+<P>
+    <label for="contato">Telefone:</label>
+    <input type="text" id="contato" placeholder="Insira seu Telefone"
+</p>
+    </section>
+    <section>
+        <h3>Pesquisa</h3>
+        <p>
+            Indique de 1 a 5, o nivel do atendimento prestado:
+            <input type="radio" id="1" name="nivel-atendimento"
+            <label for="1">1</label>
+            <input type="radio" id="2" name="nivel-atendimento"
+            <label for="2">2</label>
+            <input type="radio" id="3" name="nivel-atendimento"
+            <label for="3">3</label>
+            <input type="radio" id="4" name="nivel-atendimento"
+            <label for="4">4</label>
+            <input type="radio" id="5" name="nivel-atendimento"
+            <label for="5">5</label>
+
+        </p>
+<p>
+    Indique de um a 1 a 5, o nivel de satisfação da resolução do atendimento:
+    <input type="radio" id="1" name="nivel-resolução"
+    <label for="1">1</label>
+    <input type="radio" id="2" name="nivel-resolução"
+    <label for="2">2</label>
+    <input type="radio" id="3" name="nivel-resolução"
+    <label for="3">3</label>
+    <input type="radio" id="4" name="nivel-resolução"
+    <label for="4">4</label>
+    <input type="radio" id="5" name="nivel-resolução"
+    <label for="5">5</label>
+</p>
+<P>
+    <Label for="depertamento">Depertamento de atendimento:</Label>
+    <select>
+    <option>Marketing</option>   
+    <option>Extração</option>
+    <option>Mineração</option>
+    <option>RH</option>
+    <option>Relações Publicas</option>
+    </select>
+</P>
+</section>
+<section>
+    <input type="checkbox" id="compartilhar"
+    <label for="compartilhar">Aceito compartilhar meus dados com teceiros para o melhorando da pesquisa</label>
+</section>       
+
+
+    <footer>
+        <p>
+        <input type="submit" value="ENVIAR PESQUISA"
+        </p>
+    </footer>
+</form>
+</body>
