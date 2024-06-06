@@ -1,0 +1,190 @@
+
+/* Configuração de Font */ 
+
+html {
+    text-indent: 1em;
+    font-style: normal;
+    font-size: 18;
+    font-family: Arial, Helvetica, sans-serif;}
+
+header h1 {
+    font-size: 50px;
+    margin-bottom: 0.2em;
+    margin-top: 0;
+}   
+
+.Formação h1 {
+    font-size: 2em;
+    color: white;
+}
+
+.Cursos h1 {
+    font-size: 2em;
+    color: white;
+}
+
+aside h1 {
+    font-size: 2em;
+    color: white;
+}
+
+header ul {font-size: 30px;}
+/* Cores */
+
+.Cabecalho {
+    background-color: #007E7A;
+    color: white;
+}
+
+.Formação {
+     background-color: #ECB11F;
+    color: #555555;
+}
+
+.Cursos {
+     background-color: #EE6F16;
+     color: #555555;
+}
+
+aside {
+    background-color: #0ABB98;
+    color: #555555;
+}
+
+#Apresentação {
+    font-size: 1.38em;
+    color: #555555;
+    border-left:#555555 solid 1px;
+}
+/* Disposição dos elementos */
+
+body {margin: 0;}
+
+.Cabecalho {
+    padding-bottom: 3px;
+}
+
+header {
+    border-bottom: 80px;
+    margin-bottom: 5px;
+    margin-top: 0;
+}
+
+.Formação {
+    margin-top: -27px;
+    margin-right: 70%;
+    margin-bottom: 0%;
+    text-align: left;
+    padding-bottom: 5px;
+}
+
+.Cursos {
+    margin-right: 70%;
+    margin-bottom: 0;
+    text-align: left;
+    padding-bottom: 5px;
+    margin-top:-32px;
+}
+
+#Apresentação {
+    position: absolute;
+    margin-left: 30%;   
+    padding-bottom: 5px;
+    padding-left: 2%;
+    
+}
+
+aside {
+    margin-right: 70%;
+    padding-bottom: 5px;
+    margin-top: -32px
+}
+
+img {
+    margin-left: 20px;
+    position: relative;
+}
+
+/* Mobile Screen */
+
+
+@media screen and (max-width: 768px ){
+
+/* Configuração de Font */ 
+
+html {
+    text-indent: 1em;
+    font-style: normal;
+    font-size: 16px; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header h1 {
+    font-size: 40px;
+    margin-bottom: 0.2em;
+    margin-top: 0;
+}   
+
+#Apresentação {
+    position: static;
+    margin-left: 2%;
+}
+
+.Formação h1, .Cursos h1, aside h1 {
+    font-size: 2em;
+    color: white;
+}
+
+header ul {font-size: 24px;} 
+/* Cores */
+
+.Cabecalho {
+    background-color: #007E7A;
+    color: white;
+}
+
+.Formação {
+    background-color: #ECB11F;
+    color: #555555;
+}
+
+.Cursos {
+    background-color: #EE6F16;
+    color: #555555;
+}
+
+aside {
+    background-color: #0ABB98;
+    color: #555555;
+}
+
+#Apresentação {
+    font-size: 1em; 
+    color: #555555;
+    border-left: #555555 solid 1px;
+}
+
+/* Disposição dos elementos */
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column; 
+
+header {
+    padding-bottom: 20px;
+}
+
+.Formação, .Cursos, aside {
+    text-align: left;
+    padding: 20px;
+    margin: 10px;
+}
+
+img {
+    margin-left: auto; 
+    margin-right: auto; 
+    max-width: 100%; /* Garantindo que a imagem não ultrapasse a largura do contêiner */
+}
+
+}
