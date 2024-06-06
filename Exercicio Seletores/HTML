@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<head>
+    <link href="style.css" rel="stylesheet">
+</head>
+<header>
+    <h1 class="destaque">Meu Nome É Kaio</h1>
+    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, excepturi voluptatibus. Nisi eius fugiat reiciendis iusto obcaecati, ea, accusantium perferendis quae eum odit minima aut dicta provident numquam, ut explicabo.</P>
+</header>
+<body>
+    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, excepturi voluptatibus. Nisi eius fugiat reiciendis iusto obcaecati, ea, accusantium perferendis quae eum odit minima aut dicta provident numquam, ut explicabo.</P>
+    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, excepturi voluptatibus. Nisi eius fugiat reiciendis iusto obcaecati, ea, accusantium perferendis quae eum odit minima aut dicta provident numquam, ut explicabo.</P>
+    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, excepturi voluptatibus. Nisi eius fugiat reiciendis iusto obcaecati, ea, accusantium perferendis quae eum odit minima aut dicta provident numquam, ut explicabo.</P>
+    <p class="destaque">Lorem, ipsum dolor <strong class="destaque">amet consectetur adipisicing elit.</strong> Esse corrupti qui veniam commodi sunt inventore distinctio, nam placeat maiores quo unde eveniet accusamus eaque mollitia, facere, velit soluta fugit asperiores.</p>
+</body>
+<footer>
+    <a href="https://store.steampowered.com/about/">STEAM </a>
+</footer>
